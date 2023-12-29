@@ -14,20 +14,20 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""𝐇𝐞𝐲 {msg.from_user.mention}🍷,
 
-𝐈 𝐀𝐦 {me2},
-𝐓𝐑𝐔𝐒𝐓𝐄𝐃 𝐒𝐓𝐑𝐈𝐍𝐆 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 𝐁𝐎𝐓.
-𝐅𝐔𝐋𝐋𝐘 𝐒𝐀𝐅𝐄 & 𝐒𝐄𝐂𝐔𝐑𝐄.
-𝐍𝐎 𝐀𝐌𝐘 𝐄𝐑𝐑𝐎𝐑.
+ɪ ᴀᴍ  {me2},
+ᴛʀᴜsᴛᴇᴅ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.
+ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.
+ɴᴏ ᴀɴʏ ᴇʀʀᴏʀ.
 
-𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝐓𝐇𝐄 𝐕𝐈𝐏 𝐁𝐎𝐘](tg://user?id={OWNER_ID}) !""",
+ᴍᴀᴅᴇ ʙʏ   : [ᴘᴍ ʙᴏᴛ](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="⚡𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆⚡", callback_data="generate")
+                    InlineKeyboardButton(text="⚡ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ⚡", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ❣️", url="https://t.me/Tg_Friendss"),
-                    InlineKeyboardButton("🥀 𝐎𝐟𝐟𝐢𝐜𝐞 🥀", url="https://t.me/VIP_CREATORS")
+                    InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/FRIENDS2FAMILY_0"),
+                    InlineKeyboardButton("🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url="https://t.me/The_F2F_Shayri")
                 ]
             ]
         ),
