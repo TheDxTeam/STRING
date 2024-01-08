@@ -14,19 +14,18 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""𝐇𝐞𝐲 {msg.from_user.mention}🍷,
 
-ɪ ᴀᴍ  {me2},
-ᴛʀᴜsᴛᴇᴅ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.
-ғᴜʟʟʏ sᴀғᴇ & sᴇᴄᴜʀᴇ.
-ɴᴏ ᴀɴʏ ᴇʀʀᴏʀ.
+Tʜɪs ɪs {me2},
+Aɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
 
-ᴍᴀᴅᴇ ʙʏ   : [ᴘᴍ ʙᴏᴛ](tg://user?id={OWNER_ID}) !""",
+Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ᴘᴍʙᴏᴛ](tg://user?id={id={OWNER_ID}) !""",
+
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="⚡ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ⚡", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/FRIENDS2FAMILY_0"),
+                    InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/THE_CUTE_BOY_OP"),
                     InlineKeyboardButton("🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url="https://t.me/The_F2F_Shayri")
                 ]
             ]
